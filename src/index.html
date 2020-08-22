@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>josh-bookmark-app</title>
+    <!-- <script src="https://kit.fontawesome.com/afc0e29a10.js" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-family-prefix="icon"></script> -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css' />
+
+
+
+</head>
+
+<body>
+    <h1>Welcome to Josh's digital bookmarks!</h1>
+
+    <main>
+
+        <div class="bookmark-container">
+            <div class="button-container">
+                <button name="js-add-new-button" class="js-add-new-button add-new-button">
+                    <span class="button-label">Add new bookmark!</span>
+                </button>
+                <select id="ratingFilter" name="ratingFilter" onChange="logSomething()"> 
+                    <option value="0">0</option>                   
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>           
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <ul name="bookmarked-pages" class="js-bookmarked-pages">
+                <li></li>
+            </ul>
+        </div>
+
+
+
+    </main>
+    <div class="errorContainer"></div>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+</body>
+
+</html>
